@@ -214,3 +214,10 @@ D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.dll
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.pdb
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddMemberShipType.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.RenameMemberShipTypeColumns.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.PopulateMemberShipTypes.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationToCustomerName.resources
