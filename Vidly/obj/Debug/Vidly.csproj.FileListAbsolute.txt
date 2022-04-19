@@ -209,7 +209,6 @@ D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.AssemblyReference.cache
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.dll
@@ -221,3 +220,5 @@ D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddMemberShipType.resource
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.RenameMemberShipTypeColumns.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.PopulateMemberShipTypes.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationToCustomerName.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddNameColumnInMembershipType.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateMemberShipTypeTable.resources
