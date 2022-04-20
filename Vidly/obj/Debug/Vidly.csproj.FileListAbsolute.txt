@@ -222,3 +222,10 @@ D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.PopulateMemberShipTypes.re
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationToCustomerName.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddNameColumnInMembershipType.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateMemberShipTypeTable.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.AssemblyReference.cache
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddCustomerBirthDateColumn.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateCustomerBirthDateColumnDatatype.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddMovieTableAndGenre.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.PopulateGenreTable.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.CorrectColumnNameOfMovieTable.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.MakeGenreIdMandatoryInMovieTable.resources

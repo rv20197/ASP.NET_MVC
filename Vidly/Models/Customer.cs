@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Vidly.Models
 {
@@ -14,6 +15,6 @@ namespace Vidly.Models
         public MembershipType MembershipType { get; set; }
 
         public byte MembershipTypeId { get; set; }
-
+        public DateTime? CustomerBirthDate { get; set; }
     }
 }
