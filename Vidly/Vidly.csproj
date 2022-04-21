@@ -231,6 +231,18 @@
     <Compile Include="Migrations\202204200325000_MakeGenreIdMandatoryInMovieTable.Designer.cs">
       <DependentUpon>202204200325000_MakeGenreIdMandatoryInMovieTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202204210319589_UpdateMoviesTable.cs" />
+    <Compile Include="Migrations\202204210319589_UpdateMoviesTable.Designer.cs">
+      <DependentUpon>202204210319589_UpdateMoviesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204210354138_UpdateGenreIdInMovieTable.cs" />
+    <Compile Include="Migrations\202204210354138_UpdateGenreIdInMovieTable.Designer.cs">
+      <DependentUpon>202204210354138_UpdateGenreIdInMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204210406488_UpdateGenreIdInMoviesTable.cs" />
+    <Compile Include="Migrations\202204210406488_UpdateGenreIdInMoviesTable.Designer.cs">
+      <DependentUpon>202204210406488_UpdateGenreIdInMoviesTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -242,6 +254,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\CustomerFormViewModel.cs" />
+    <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -307,6 +320,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
+    <Content Include="Views\Movies\MovieForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -366,6 +380,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202204200325000_MakeGenreIdMandatoryInMovieTable.resx">
       <DependentUpon>202204200325000_MakeGenreIdMandatoryInMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204210319589_UpdateMoviesTable.resx">
+      <DependentUpon>202204210319589_UpdateMoviesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204210354138_UpdateGenreIdInMovieTable.resx">
+      <DependentUpon>202204210354138_UpdateGenreIdInMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204210406488_UpdateGenreIdInMoviesTable.resx">
+      <DependentUpon>202204210406488_UpdateGenreIdInMoviesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

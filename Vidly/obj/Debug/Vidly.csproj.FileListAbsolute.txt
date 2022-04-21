@@ -229,3 +229,6 @@ D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddMovieTableAndGenre.reso
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.PopulateGenreTable.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.CorrectColumnNameOfMovieTable.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.MakeGenreIdMandatoryInMovieTable.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateMoviesTable.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateGenreIdInMovieTable.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateGenreIdInMoviesTable.resources
