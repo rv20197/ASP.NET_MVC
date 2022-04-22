@@ -8,6 +8,7 @@
 
 @using (Html.BeginForm("SaveMovie", "Movies"))
 {
+    @Html.ValidationSummary(true, "Please fix following errors")
     <div class="form-group">
         @Html.LabelFor(m => m.Movie.Name)
         @Html.TextBoxFor(m => m.Movie.Name, new { @class = "form-control" })
