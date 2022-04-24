@@ -159,6 +159,7 @@ D:\Codes\ASP.NET_MVC\Vidly\bin\roslyn\vbc.rsp
 D:\Codes\ASP.NET_MVC\Vidly\bin\roslyn\VBCSCompiler.exe
 D:\Codes\ASP.NET_MVC\Vidly\bin\roslyn\VBCSCompiler.exe.config
 D:\Codes\ASP.NET_MVC\Vidly\bin\Antlr3.Runtime.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\AutoMapper.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\EntityFramework.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\EntityFramework.SqlServer.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.AspNet.Identity.Core.dll
@@ -177,7 +178,10 @@ D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.Owin.Security.Twitter.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.Web.Infrastructure.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\Newtonsoft.Json.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\Owin.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\System.Net.Http.Formatting.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Helpers.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Http.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Http.WebHost.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Mvc.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Optimization.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Razor.dll
@@ -185,6 +189,12 @@ D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.WebPages.Deployment.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.WebPages.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.WebPages.Razor.dll
 D:\Codes\ASP.NET_MVC\Vidly\bin\WebGrease.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\AutoMapper.xml
+D:\Codes\ASP.NET_MVC\Vidly\bin\EntityFramework.xml
+D:\Codes\ASP.NET_MVC\Vidly\bin\EntityFramework.SqlServer.xml
+D:\Codes\ASP.NET_MVC\Vidly\bin\System.Net.Http.Formatting.xml
+D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Http.xml
+D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Http.WebHost.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Helpers.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Mvc.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.Optimization.xml
@@ -194,8 +204,6 @@ D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.WebPages.Deployment.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\System.Web.WebPages.Razor.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Newtonsoft.Json.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Antlr3.Runtime.pdb
-D:\Codes\ASP.NET_MVC\Vidly\bin\EntityFramework.xml
-D:\Codes\ASP.NET_MVC\Vidly\bin\EntityFramework.SqlServer.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.AspNet.Identity.Core.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.AspNet.Identity.Owin.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -209,12 +217,7 @@ D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Codes\ASP.NET_MVC\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
-D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.CopyComplete
-D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.dll
-D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.pdb
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
-D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddMemberShipType.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.RenameMemberShipTypeColumns.resources
@@ -222,7 +225,6 @@ D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.PopulateMemberShipTypes.re
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationToCustomerName.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddNameColumnInMembershipType.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateMemberShipTypeTable.resources
-D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.AssemblyReference.cache
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddCustomerBirthDateColumn.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateCustomerBirthDateColumnDatatype.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddMovieTableAndGenre.resources
@@ -232,3 +234,9 @@ D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.MakeGenreIdMandatoryInMovi
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateMoviesTable.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateGenreIdInMovieTable.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.UpdateGenreIdInMoviesTable.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.CopyComplete
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.dll
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.pdb
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.AssemblyReference.cache
