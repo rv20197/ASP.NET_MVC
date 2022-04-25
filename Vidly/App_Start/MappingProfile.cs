@@ -18,7 +18,7 @@ namespace Vidly.App_Start
 
             Mapper.CreateMap<MembershipType, MembershipTypeDTO>();
 
-            //Mapper.CreateMap<Customer, CustomerDTO>().ForMember(dest => dest.Memem, opt => opt.MapFrom(src => src.MembershipType))
+            Mapper.CreateMap<Genre, GenreTypeDTO>();
 
         }
     }
