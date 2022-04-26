@@ -241,3 +241,4 @@ D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.dll
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.pdb
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.AssemblyReference.cache
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
