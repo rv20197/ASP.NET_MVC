@@ -102,6 +102,7 @@ namespace Vidly.Controllers
         // POST: /Movies/SaveMovie
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult SaveMovie(Movie movie)
         {
             if (movie.Id == 0)
