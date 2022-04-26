@@ -19,6 +19,7 @@ namespace Vidly.Controllers.API
         }
 
         [HttpGet]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         // GET: /api/movies
         public IEnumerable<MovieDTO> GetMovies()
         {
@@ -27,6 +28,7 @@ namespace Vidly.Controllers.API
         }
 
         [HttpGet]
+
         //GET: /api/movies/id
         public IHttpActionResult GetMovie(int id)
         {
@@ -98,9 +100,9 @@ namespace Vidly.Controllers.API
             }
 
             movieInDb.Name = movieDTO.Name == null ? movieInDb.Name : movieDTO.Name;
-            movieInDb.GenreId = (byte)(movieDTO.GenreId != 0 ? movieInDb.GenreId : movieDTO.GenreId);
+            movieInDb.GenreId = (byte)(movieDTO.GenreId == 0 ? movieInDb.GenreId : movieDTO.GenreId);
             movieInDb.ReleaseDate = (DateTime)(movieDTO.ReleaseDate == null ? movieInDb.ReleaseDate : movieDTO.ReleaseDate);
-            movieInDb.NumberInStock = (byte)(movieDTO.NumberInStock != 0 ? movieInDb.NumberInStock : movieDTO.NumberInStock);
+            movieInDb.NumberInStock = (byte)(movieDTO.NumberInStock == 0 ? movieInDb.NumberInStock : movieDTO.NumberInStock);
 
             try
             {
