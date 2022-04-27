@@ -242,3 +242,8 @@ D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.pdb
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.csproj.AssemblyReference.cache
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 D:\Codes\ASP.NET_MVC\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+D:\Codes\ASP.NET_MVC\Vidly\bin\Glimpse.Ado.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\Glimpse.AspNet.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\Glimpse.Core.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\Glimpse.EF6.dll
+D:\Codes\ASP.NET_MVC\Vidly\bin\Glimpse.Mvc5.dll
