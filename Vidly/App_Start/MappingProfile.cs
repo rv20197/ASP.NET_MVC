@@ -20,6 +20,10 @@ namespace Vidly.App_Start
 
             Mapper.CreateMap<Genre, GenreTypeDTO>();
 
+            Mapper.CreateMap<Rental, NewRentalDTO>();
+
+            Mapper.CreateMap<NewRentalDTO, Rental>().ForMember(c => c.Id, opt => opt.Ignore());
+
         }
     }
 }
