@@ -1,36 +1,34 @@
-﻿
+﻿@model dynamic
+
 @{
     ViewBag.Title = "New Rental Form";
 }
 
 <h2>New Rental Form</h2>
 
-<form>
-    @* div.form-group>label+input[type="text"].form-control *@
+<form id="newRental">
     <div class="form-group">
-        <label for="customers">Customer</label>
+        <label>Customer</label>
         <div class="tt-container">
-            <input type="text" class="form-control" id="customers">
+            <input id="customer" type="text" value="" class="form-control" />
         </div>
     </div>
 
     <div class="form-group">
-        <label for="movies">Movie</label>
+        <label>Movie</label>
         <div class="tt-container">
-            <input type="text" class="form-control" id="movie">
+            <input id="movie" type="text" value="" class="form-control" />
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-4 col-sm-4">
-            <ul id="movies" class="list-group">
-            </ul>
+            <ul id="movies" class="list-group"></ul>
         </div>
     </div>
 
     <button class="btn btn-primary">Submit</button>
 </form>
-
 @section scripts
 {
     <script>
@@ -49,18 +47,16 @@
                 }
             });
 
-            $('#customers').typeahead({
-                minLength: 2,
-                highlight: true,
-                limit: 100
-            },
-                {
-                    name: 'customers',
-                    display: 'name',
-                    source: customers
-                }).on("typeahead:select", (e, customer) => {
-                    vm.customerId = customer.id;
-                });
+            $('#customer').typeahead({
+                minLength: 3,
+                highlight: true
+            }, {
+                name: 'customers',
+                display: 'name',
+                source: customers
+            }).on("typeahead:select", function (e, customer) {
+                vm.customerId = customer.id;
+            });
 
             var movies = new Bloodhound({
                 datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
@@ -71,20 +67,36 @@
                 }
             });
 
-            $('#movies').typeahead({
-                minLength: 2,
-                highlight: true,
-                limit: 100
-            },
-                {
-                    name: 'movies',
-                    display: 'name',
-                    source: movies
-                }).on("typeahead:select", (e, movie) => {
-                    $("#movies").append($("<li>").html(movie.name).addClass("list-group-item"));
-                    $("#movie").typeahead("val", "");
-                    vm.movieIds.push(movie.id);
-                });
+            $('#movie').typeahead({
+                minLength: 3,
+                highlight: true
+            }, {
+                name: 'movies',
+                display: 'name',
+                source: movies
+            }).on("typeahead:select", function (e, movie) {
+                $("#movies").append("<li class='list-group-item'>" + movie.name + "</li>");
+
+                $("#movie").typeahead("val", "");
+
+                vm.movieIds.push(movie.id);
+            });
+
+            $("#newRental").submit(function (e) {
+                e.preventDefault();
+
+                $.ajax({
+                    url: "/api/newRentals",
+                    method: "post",
+                    data: vm
+                })
+                    .done(function () {
+                        console.log("done");
+                    })
+                    .fail(function () {
+
+                    });
+            });
         });
     </script>
 }
