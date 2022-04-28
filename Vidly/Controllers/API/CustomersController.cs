@@ -21,7 +21,7 @@ namespace Vidly.Controllers.API
         }
         // GET: api/customers
         [HttpGet]
-        public IEnumerable<CustomerDTO> GetCustomers()
+        public IEnumerable<CustomerDTO> GetCustomers(string query = null)
         {
             if (MemoryCache.Default["Genre"] == null)
             {
@@ -29,9 +29,15 @@ namespace Vidly.Controllers.API
             }
             var genres = MemoryCache.Default["Genres"] as IEnumerable<Genre>;
 
-            var customerDtos = _context.Customers
-                .Include(c => c.MembershipType)
-                .ToList()
+            var customerQuery = _context.Customers
+                .Include(c => c.MembershipType);
+
+            if (!string.IsNullOrWhiteSpace(query))
+            {
+                customerQuery = customerQuery.Where(c => c.Name.Contains(query));
+            };
+
+            var customerDtos = customerQuery.ToList()
                 .Select(Mapper.Map<Customer, CustomerDTO>);
             return customerDtos;
         }
