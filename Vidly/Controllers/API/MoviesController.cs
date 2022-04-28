@@ -42,7 +42,7 @@ namespace Vidly.Controllers.API
         }
 
         [HttpGet]
-
+        [Authorize(Roles = RoleName.CanManageMovies)]
         //GET: /api/movies/id
         public IHttpActionResult GetMovie(int id)
         {
