@@ -54,9 +54,9 @@ namespace Vidly.Controllers.API
             if (movie.Id == 0)
             {
                 movie.DateAdded = DateTime.Now;
+                movie.NumberAvailable = (byte)movieDTO.NumberInStock;
                 _context.Movies.Add(movie);
             }
-            _context.Movies.Add(movie);
             try
             {
                 _context.SaveChanges();
@@ -103,7 +103,7 @@ namespace Vidly.Controllers.API
             movieInDb.GenreId = (byte)(movieDTO.GenreId == 0 ? movieInDb.GenreId : movieDTO.GenreId);
             movieInDb.ReleaseDate = (DateTime)(movieDTO.ReleaseDate == null ? movieInDb.ReleaseDate : movieDTO.ReleaseDate);
             movieInDb.NumberInStock = (byte)(movieDTO.NumberInStock == 0 ? movieInDb.NumberInStock : movieDTO.NumberInStock);
-
+            //movieInDb.NumberAvailable = (byte)(movieDTO.NumberInStock == 0 ? movieInDb.NumberInStock : movieDTO.NumberInStock);
             try
             {
                 _context.SaveChanges();

@@ -282,6 +282,10 @@
     <Compile Include="Migrations\202204270603040_UpdateDateReturnedColumnToNullable.Designer.cs">
       <DependentUpon>202204270603040_UpdateDateReturnedColumnToNullable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202204280217513_AddedAvailabilityOfMoviesInMovieModel.cs" />
+    <Compile Include="Migrations\202204280217513_AddedAvailabilityOfMoviesInMovieModel.Designer.cs">
+      <DependentUpon>202204280217513_AddedAvailabilityOfMoviesInMovieModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -617,6 +621,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202204270603040_UpdateDateReturnedColumnToNullable.resx">
       <DependentUpon>202204270603040_UpdateDateReturnedColumnToNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204280217513_AddedAvailabilityOfMoviesInMovieModel.resx">
+      <DependentUpon>202204280217513_AddedAvailabilityOfMoviesInMovieModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
