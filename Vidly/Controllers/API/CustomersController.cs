@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Runtime.Caching;
 using System.Web.Http;
 using Vidly.DTO;
 using Vidly.Models;
@@ -23,11 +22,7 @@ namespace Vidly.Controllers.API
         [HttpGet]
         public IEnumerable<CustomerDTO> GetCustomers(string query = null)
         {
-            if (MemoryCache.Default["Genre"] == null)
-            {
-                MemoryCache.Default["Genres"] = _context.Genres.ToList();
-            }
-            var genres = MemoryCache.Default["Genres"] as IEnumerable<Genre>;
+
 
             var customerQuery = _context.Customers
                 .Include(c => c.MembershipType);

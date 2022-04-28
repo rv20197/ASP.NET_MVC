@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Runtime.Caching;
 using System.Web.Http;
 using Vidly.DTO;
 using Vidly.Models;
@@ -21,9 +22,22 @@ namespace Vidly.Controllers.API
         [HttpGet]
         [Authorize(Roles = RoleName.CanManageMovies)]
         // GET: /api/movies
-        public IEnumerable<MovieDTO> GetMovies()
+        public IEnumerable<MovieDTO> GetMovies(string query=null)
         {
-            var moviesDto = _context.Movies.Include(m=>m.Genre).ToList().Select(Mapper.Map<Movie, MovieDTO>);
+            if (MemoryCache.Default["Genre"] == null)
+            {
+                MemoryCache.Default["Genres"] = _context.Genres.ToList();
+            }
+            var genres = MemoryCache.Default["Genres"] as IEnumerable<Genre>;
+
+            var moviesQuery = _context.Movies.Include(m => m.Genre).Where(m=>m.NumberAvailable>0);
+
+            if (!string.IsNullOrWhiteSpace(query))
+            {
+                moviesQuery = moviesQuery.Where(c => c.Name.Contains(query));
+            };
+
+            var moviesDto = moviesQuery.ToList().Select(Mapper.Map<Movie, MovieDTO>);
             return moviesDto;
         }
 
